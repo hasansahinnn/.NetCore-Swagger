@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:WebApi.Controllers.WeatherForecastController.Get" -->
+        <member name="M:WebApi.Controllers.WeatherForecastController.GetNumber(System.Int32)">
+             <summary>
+             Get Number + 1
+             </summary>
+             <param name="number" example="10">5 Girebilirsin</param>
+             <remarks>
+             Sample request:
+            
+                 Get /GetNumber
+                 {
+                    "number": 5
+                 }
+            
+             </remarks>
+             <returns>Int</returns>
+             <response code="200">Sayı Başarılı Bir Şekilde Geldi</response>
+             <response code="400">Sayfa Bulunamadı</response>  
+             <example>35</example>
+        </member>
+    </members>
+</doc>
